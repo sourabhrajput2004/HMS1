@@ -40,7 +40,7 @@ public class Dashboard extends JFrame implements ActionListener {
         label11.setBounds(400,300,200,195);
         add(label11);
 
-        ImageIcon imageIcon = new ImageIcon(getClass().getResource("/icon/Dashboard.gif"));
+        ImageIcon imageIcon = new ImageIcon(getClass().getResource("/icon/Dashboard.gif")); //Add your dashboard gif because i have large file of dashboard i can't upload
         Image i1 = imageIcon.getImage().getScaledInstance(1950,1090, Image.SCALE_DEFAULT);
         ImageIcon imageIcon1 = new ImageIcon(i1);
         JLabel label = new JLabel(imageIcon1);
@@ -68,3 +68,4 @@ public class Dashboard extends JFrame implements ActionListener {
         new Dashboard();
     }
 }
+
