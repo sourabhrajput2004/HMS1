@@ -7,7 +7,7 @@ public class Splash extends JFrame{
 
     Splash(){
 
-        ImageIcon imageIcon = new ImageIcon(getClass().getResource("/icon/splash.gif"));
+        ImageIcon imageIcon = new ImageIcon(getClass().getResource("/icon/splash.gif")); //use your random gif in place of this icon
         
 
         JLabel label = new JLabel(imageIcon);
@@ -37,3 +37,4 @@ public class Splash extends JFrame{
        new Splash(); 
     }
 }
+
