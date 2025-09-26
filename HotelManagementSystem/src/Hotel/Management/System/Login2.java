@@ -36,7 +36,7 @@ public class Login2 extends JFrame implements ActionListener {
         passwordField1.setBackground(new Color(26,104,110));
         add(passwordField1);
 
-        ImageIcon imageIcon = new ImageIcon(getClass().getResource("/icon/login.gif"));
+        ImageIcon imageIcon = new ImageIcon(getClass().getResource("use your file according to your file"));
         Image i1 = imageIcon.getImage().getScaledInstance(255,300,Image.SCALE_DEFAULT);
         ImageIcon imageIcon1 = new ImageIcon(i1);
         JLabel label = new JLabel(imageIcon1);
@@ -101,3 +101,4 @@ public class Login2 extends JFrame implements ActionListener {
         new Login2();
     }
 }
+
