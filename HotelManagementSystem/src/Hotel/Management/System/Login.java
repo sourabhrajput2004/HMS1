@@ -42,7 +42,7 @@ public class Login extends JFrame implements ActionListener {
 
         // try {
 
-        //     ImageIcon imageIcon = new ImageIcon(getClass().getResource("/icon/login.gif"));
+        //     ImageIcon imageIcon = new ImageIcon(getClass().getResource("use your image"));
         //     Image i1 = imageIcon.getImage().getScaledInstance(255,300,Image.SCALE_DEFAULT);
         //     ImageIcon i2 = new ImageIcon(i1);
         //     JLabel label = new JLabel(i2);
@@ -108,3 +108,4 @@ public class Login extends JFrame implements ActionListener {
         new Login();
     }
 }
+
