@@ -20,7 +20,7 @@ and vice versa with the admin option..
 ## 🚀 Installation
 ```bash
 # Clone the repository
-git clone https://github.com/coderboissr/HMS1
+git clone https://github.com/sourabhrajput2004/HMS1
 
 # Navigate into the directory
 cd project-name
